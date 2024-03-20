@@ -1,11 +1,149 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
-}
+@media screen and (width>=324px){
+	body{
+		margin: 0;
+		background-color: #fcebc9;
+		h1 {
+			font-family: "Protest Riot", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			text-align:center;
+			color: black;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		}
+		#title-div {
+			margin: 0;
+		}
+		#content-div {
+			position: absolute;
+			margin-top: 40px;
+			width: 283px;
+			height: 240px;
+			left: 55px;
+			top: 200px;
+			font-family: 'Jost';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 23px;
+			color: #000000;
+		}
+		#title-img { margin-top: 0;
+			margin-left: 0;
+			margin-right: 0;
+			width: 100%;
+		}
+		#title {
+			position: absolute; left: 0; top: 60px; right: 0; bottom: 0;
+			margin: auto;
+		}
+		.Top-attractions {
+			text-align: center;
+			font-size: 32px;
+			font-family: "Protest Riot", sans-serif;
+  			font-weight: 400;
+  			font-style: normal;
+			margin-top: 400px;
+		}
+	    li {
+			position: relative;
+			line-height: 33px;
+		}
+		li::marker {
+			position: absolute;
+			top: 5px;
+			color: #3f5e80;
+			font-size: 32px;
+			font-weight: bolder;
+			float: left;
+	
+		}
+		a {
+			color: #3f5e80;
+			font-size: 32px;
+			font-weight: bolder;
+		}
+		li {
+			position: relative;
+			font-size: 23px;
+			font-family: "Acme", sans-serif;
+  			font-weight: 200;
+  			font-style: normal;
+		}
+		li img {
+			margin-top: 20px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+		}
+		li p{
+			width: 283px;
+			font-family: 'Jost';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 23px;
+			color: #000000;
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+		}
+		.travel-tips {
+			font-family: "Protest Riot", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			text-align:center;
+			color: black;
+		}
+		ul {
+			display: block; 
+			margin-left: auto;
+			margin-right: auto;
+			width: 70%; 
+		  }
+		.top{
+			font-family: "Protest Riot", sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			text-align:center;
+			color: black;
+		}
+		h3 {text-align: center;
+			font-size: 23px;
+			font-family: "Acme", sans-serif;
+  			font-weight: 200;
+  			font-style: normal;
+
+		}
+
+		.met{
+			display: block; 
+ 			margin-left: auto;
+  			margin-right: auto;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
+		.themet{
+			width: 283px;
+			font-family: 'Jost';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 23px;
+			color: #000000;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		}
+	
+}
+@media screen and (width>=834px){
+	body{font-family: Arial, sans-serif;
+		margin: 20;
+		padding: 10;
+		color:red;
+		background-color: #f4f4;
+}
+}
+@media screen and (width>=1280px){
+	body{font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		line-height: 1.6;
+		color: #333;
+		background-color: #f4f4f4;
+}}
